@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.nav a {
+  text-decoration-line: none;
+  color: whitesmoke;
+}
+
+.nav > .active {
+  color: yellow;
+  font-weight: 800;
+  /* text-decoration-line: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px; */
+}
